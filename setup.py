@@ -3,7 +3,7 @@ from typing import List
 
 HYPHON_E_DOT = '-e .'
 
-def get_packages(file_path: str)->List(str):
+def get_packages(file_path: str)->List[str]:
 
     requirements = []
     with open(file_path) as file:
