@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Upload with Caption</title>
+    <style>
+        /* Add your CSS styles here for styling the page */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #photo-preview {
+            max-width: 100%;
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload a Photo with Caption</h1>
+
+    <!-- Photo Upload Form -->
+    <form id="photo-form" method='post' action="/" enctype = "multipart/form-data">
+        <input type="file" name='Image' required>
+        <br>
+        <img id="photo-preview" src="" alt="Uploaded Photo">
+        <br>
+        <textarea id="caption-input" rows="4">Caption: {{caption}}</textarea>
+        <br>
+        <button type="submit" value ="Upload">Upload Photo</button>
+    </form>
+</body>
+</html>

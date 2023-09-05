@@ -15,7 +15,7 @@ class PredictionPipelineConfig:
     model_name: str = 'Salesforce/blip-image-captioning-base'
 
 class PredictionPipeline:
-    def __init__(self, model_path:str ):
+    def __init__(self):
         '''
         Initiate the prediction pipeline
         '''

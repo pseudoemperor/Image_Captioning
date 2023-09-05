@@ -3,5 +3,6 @@ dataclasses
 transformers
 datasets==2.13.1
 torch
-PIL
+flask
+
 -e .
