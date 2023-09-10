@@ -88,7 +88,7 @@
         <h2>Upload a Photo</h2>
         <form id="photo-form" method='post' action="/" enctype = "multipart/form-data">
             <label for="file-upload" class="upload-label" required>Choose Image</label>
-            <input type="file" id ='file-upload' name='Image'>
+            <input type="file" id ='file-upload' name='Image' required>
             <img src="" id="photo-preview" alt="Uploaded Photo">
             <textarea id="caption-input" rows=4 readonly>Caption: {{caption}}</textarea>
             <button id='submit-button' type="submit" value ="Upload">Upload Photo</button>
@@ -111,16 +111,14 @@
                 imagePreview.style.display = 'block';
                 textArea.style.display = 'block';
                 generateButton.style.display = 'block';
+                textArea.value = 'Caption: None'
             }
             reader.readAsDataURL(file);
         }
 
     });
-
     // Add an event listener to the generate button
-    generateButton.addEventListener('click', function (e) {
-        textArea.value = {{caption}};
-    });
+    
     
 </script>
 </body>
