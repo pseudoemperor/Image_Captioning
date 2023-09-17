@@ -45,7 +45,7 @@ This project is open source and welcomes any contribution to fine-tune the model
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/tushaar9560)
 [![instagram](https://img.shields.io/badge/instagram-d62976?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/itstushaar1)
-[![telegram](https://img.shields.io/badge/telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://instagram.com/itstushaar1)
+[![telegram](https://img.shields.io/badge/telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.com/itstushaar1)
 [![email](https://img.shields.io/badge/email-0088cc?style=for-the-badge&logo=gmail&logoColor=white)](https://tushaar.sharma05@gmail.com)
 # License
 
